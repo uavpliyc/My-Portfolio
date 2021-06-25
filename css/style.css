@@ -870,7 +870,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 7em 0;
+  padding-top: 7em;
   float: left;
   width: 100%;
   position: relative;
@@ -878,7 +878,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
-    padding: 3em 0;
+    padding-top: 3em;
   }
 }
 #fh5co-footer h2, #fh5co-footer h3, #fh5co-footer h4 {
