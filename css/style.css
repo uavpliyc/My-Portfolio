@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 400;
@@ -235,10 +230,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-social {
   padding: 0;
   margin: 0;
+  display: flex;
 }
 .fh5co-social li {
   padding: 0;
-  margin: 0;
+  margin-right: 10px;
   list-style: none;
   display: -moz-inline-stack;
   display: inline-block;
@@ -521,6 +517,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 70px;
   font-weight: 400;
+  color: #fff;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 small {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
