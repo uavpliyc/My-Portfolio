@@ -264,6 +264,12 @@ h1, h2, h3, h4, h5, h6, figure {
   text-decoration: none;
 }
 
+.img-size {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
     float: none;
@@ -549,13 +555,13 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services-section .services {
   position: relative;
 }
-#fh5co-services-section .services i {
+/* #fh5co-services-section .services i {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 40px;
   color: #27E1CE;
-}
+} */
 #fh5co-services-section .services .desc {
   padding-left: 70px;
 }
