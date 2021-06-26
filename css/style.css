@@ -528,6 +528,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 70px;
   font-weight: 400;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 small {
   color: #fff;
